@@ -43,7 +43,6 @@ maze()
 def maze1():
     print("Welcome back, good to see you beat the first maze, this wont be so easy, let's begin")
     time.sleep(2)
-
     answer2 = input("You continue to walk down through the maze, when you see an odd opening in the wall: Do you investigate this opening, bearing in mind that the otherside could be dangerous?")
     def problem0():
         if answer2 == "y":
